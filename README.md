@@ -42,14 +42,7 @@ summative-assignment-patient-referral-urgency-ml/
 │   └── patient_priority.csv              # Dataset
 ├── notebook/
 │   └── patient_triage_ml_analysis.ipynb # Main analysis notebook
-├── src/
-│   ├── model_comparison.png          # Model performance visualization
-│   ├── confusion_matrix.png          # Confusion matrix
-│   ├── feature_importance.png        # Top features
-│   ├── glucose_distribution.png      # Glucose by triage level
-│   └── bp_age_analysis.png           # BP and age distributions
-└── report/
-    └── myreport.pdf              # Academic report (3,500-5,000 words)
+
 
 ```
 
@@ -117,21 +110,10 @@ pip install -r requirements.txt
 
 3. **Open the Jupyter notebook:**
 ```bash
-jupyter notebook notebook/patient_triage_ml_analysis.ipynb
+jupyter notebook notebook/patient_triage_ml_urgency.ipynb
 ```
 
 4. **Run all cells** to reproduce the analysis
 
 ---
-
-##  Presentation Video
-
-**Video Link:** [*****************************]
-
-**Contents:**
-- Problem overview and clinical context
-- Dataset description and analysis
-- Methodology comparison (Traditional ML vs Deep Learning)
-- Key results and findings
-- Clinical implications and deployment recommendations
 
